@@ -1,0 +1,22 @@
+:root {
+
+	// Colors
+	--c-dark: #141516;
+	--c-darkest: #0a0a0a;
+	--c-light: #e4e4e4;
+	--c-lightest: #f1f1f1;
+
+	--c-purple: #6a58d2;
+	--c-blue: #04a7a7;
+	--c-orange: #f15922;
+	--c-grey: #7b7b7b;
+	--c-white: #ffffff;
+
+	--c-primary: var(--c-blue);
+	--c-secondary: var(--c-light);
+	--c-tertiary: var(--c-dark);
+	--c-alternate: var(--c-purple);
+
+	--c-disabled: var(--c-darkest);
+	
+}

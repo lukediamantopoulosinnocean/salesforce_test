@@ -1,0 +1,71 @@
+body {
+	color: var(--c-tertiary);
+	background-color: var(--c-secondary);
+}
+
+// ---------------------------------------------------
+// THEME DARK THEME DARK
+
+body.theme-dark {
+	--c-secondary: var(--c-dark);
+	--c-tertiary: var(--c-light);
+
+	.card {
+		background-color: var(--c-secondary);
+
+		&::before {
+			background-color: var(--c-darkest);
+		}
+	}
+}
+
+// THEME DARK THEME DARK
+// ---------------------------------------------------
+
+
+// ---------------------------------------------------
+// THEME SWITCH THEME SWITCH
+
+.theme-switch {
+	--size: 15px;
+
+	position: relative;
+	width: calc(var(--size) * 2);
+	height: var(--size);
+	// border: 2px solid var(--c-tertiary);
+	background: var(--c-tertiary);
+	border-radius: 50px;
+
+	&::after {
+		content: 'Theme';
+		position: absolute;
+		right: 120%;
+		top: 50%;
+		transform: translateY(-50%);
+		color: var(--c-tertiary);
+		font-size: 1.2rem;
+	}
+
+	&-ball {
+		position: relative;
+		height: var(--size);
+		width: var(--size);
+		background: var(--c-primary);
+		display: inline-block;
+		border-radius: 50%;
+		transition: all .3s ease-in-out;
+		margin: 0 auto;
+		left: 0%;
+	}
+
+	body.theme-dark & {
+
+		&-ball {
+			left: 50%;
+		}
+	}
+}
+
+// THEME SWITCH THEME SWITCH
+// ---------------------------------------------------
+

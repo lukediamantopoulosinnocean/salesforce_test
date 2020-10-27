@@ -1,0 +1,46 @@
+// ---------------------------------------------------
+// MEDIA MEDIA MEDIA MEDIA 
+
+$small: 400px;
+$medium: 767px;
+$large: 1280px;
+
+// MEDIA MEDIA MEDIA MEDIA 
+// ---------------------------------------------------
+
+// ---------------------------------------------------
+// POSITION POSITION POSITION POSITION
+.flex {
+	display: flex;
+}
+
+.flex-center {
+	justify-content: center;
+	align-items: center;
+}
+
+.flex-space-between {
+	justify-content: space-between;
+	align-items: center;
+}
+
+.flex-column {
+	flex-flow: column;
+}
+
+.flex-remaining {
+	flex: 1;
+}
+
+// POSITION POSITION POSITION POSITION
+// ---------------------------------------------------
+
+// ---------------------------------------------------
+// TEXT TEXT TEXT TEXT 
+
+.text-center {
+	text-align: center;
+}
+
+// TEXT TEXT TEXT TEXT 
+// ---------------------------------------------------

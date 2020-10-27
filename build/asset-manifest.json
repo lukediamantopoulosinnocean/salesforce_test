@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/salesforce/static/css/main.41519b80.chunk.css",
+    "main.js": "/salesforce/static/js/main.ee9521cf.chunk.js",
+    "main.js.map": "/salesforce/static/js/main.ee9521cf.chunk.js.map",
+    "runtime-main.js": "/salesforce/static/js/runtime-main.b0b24a1e.js",
+    "runtime-main.js.map": "/salesforce/static/js/runtime-main.b0b24a1e.js.map",
+    "static/js/2.978f58f1.chunk.js": "/salesforce/static/js/2.978f58f1.chunk.js",
+    "static/js/2.978f58f1.chunk.js.map": "/salesforce/static/js/2.978f58f1.chunk.js.map",
+    "index.html": "/salesforce/index.html",
+    "precache-manifest.306e943aba69070eea1425e48c773ece.js": "/salesforce/precache-manifest.306e943aba69070eea1425e48c773ece.js",
+    "service-worker.js": "/salesforce/service-worker.js",
+    "static/css/main.41519b80.chunk.css.map": "/salesforce/static/css/main.41519b80.chunk.css.map",
+    "static/js/2.978f58f1.chunk.js.LICENSE.txt": "/salesforce/static/js/2.978f58f1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b0b24a1e.js",
+    "static/js/2.978f58f1.chunk.js",
+    "static/css/main.41519b80.chunk.css",
+    "static/js/main.ee9521cf.chunk.js"
+  ]
+}
